@@ -229,6 +229,7 @@ function App() {
                       <label htmlFor={field.name}>Password:</label>
                       <input
                         className="p-2 border"
+                        type="password"
                         name={field.name}
                         value={field.state.value}
                         onBlur={field.handleBlur}
@@ -268,6 +269,7 @@ function App() {
                       <label htmlFor={field.name}>Confirm Password:</label>
                       <input
                         className="p-2 border"
+                        type="password"
                         name={field.name}
                         value={field.state.value}
                         onBlur={field.handleBlur}
